@@ -1,0 +1,25 @@
+show dbs -- display all databases
+
+use <dbsname> -- if existing, will use the db name specified
+              -- if doesn't exist, will create a new one
+
+show collections -- displays all 'collections' (similar to tables) in the db
+
+db.dropDatabase() -- probably not the best command to learn when first starting with nosql databases as this command will delete the database
+
+cls -- clear the screen/command prompt/shell
+
+exit -- exits you out of the terminal
+
+db -- shows you which db you are currently in
+
+db.<collectionname>.find() -- similar to select all
+
+db.<collectionname>.insertOne({}) -- insertOne is a function that will insert one record in the collection name specified
+
+db.<collectionname>.insertOne({<colname>: "value"}) -- similar to inserting values in a table, not that I need this, but it's a good-to-know item
+
+db.<collectionname>.insertOne ({<col1>: "val1", <col2>: "val2"}) -- for inserting values in different columns (one record)
+
+db.<collectionname>.insertOne ({<col1>: "val1", <col2>: "val2", <col3>: {<sub1>: "val1", <sub2>: "val2"}}) -- nesting example
+
