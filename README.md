@@ -1,2 +1,2 @@
 # SQL
-The Basics
+Not Only SQL
